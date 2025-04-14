@@ -24,7 +24,7 @@ public class NavBarActionsSubh {
   /**
    * Description:enter the delivery Location
    *
-   * @param N/A
+   * @param test
    */
   public void whereToDeliver() {
     try {
@@ -34,7 +34,7 @@ public class NavBarActionsSubh {
       helper.sendKeys(HomePage.pinCode, ExcelReader.readCellValue("Sheet1", "2", "city"));
       helper.enterAction(HomePage.pinCode);
       helper.clickOnElement(ProductPage.chn);
-      //Thread.sleep(3000);
+      Thread.sleep(3000);
       WebElement element = Base.driver.findElement(HomePage.pinCode);
       String str = element.getDomAttribute("value");
       System.out.println(str);
@@ -54,7 +54,7 @@ public class NavBarActionsSubh {
   /**
    * Description: search the cake
    * 
-   * @param N/A
+   * @param test
    */
   public void birthdayCakeSearch() {
     try {

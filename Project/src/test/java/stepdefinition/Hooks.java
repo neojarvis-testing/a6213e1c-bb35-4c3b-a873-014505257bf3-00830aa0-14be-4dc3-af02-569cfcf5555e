@@ -11,30 +11,37 @@ import io.cucumber.java.Scenario;
 import utils.Base;
 import utils.Reporter;
 
-public class Hooks extends Base {
+public class Hooks extends Base{
+
     public static ExtentReports reports;
     public static ExtentTest test;
 
-
-    
     @BeforeAll
-    public static void makeReport(){
-    reports=Reporter.createReport("FNP_Report");
+    public static void reportGeneration()
+    {
+        reports=Reporter.createReport("FNP_Report");
     }
-    @Before
-    public void getBrowser(Scenario sc){
-      browserSetup();
-        test=reports.createTest(sc.getName());
-    }
-    @After
-    public void quitDriver(){
-        if(driver!=null){
-            driver.quit();
-        }
-    }
-    @AfterAll
-    public static void flushingReport(){
-        reports.flush();
-    } 
 
+    @Before
+    public void browser(Scenario sc)
+    {   
+            browserSetup();
+
+            test=reports.createTest(sc.getName());
+       
+    }
+
+    @After
+    public void tearDown()
+    {
+            driver.quit();
+    
+    }
+
+    @AfterAll
+    public static void repFlush()
+    {
+        reports.flush();
+    }
+    
 }

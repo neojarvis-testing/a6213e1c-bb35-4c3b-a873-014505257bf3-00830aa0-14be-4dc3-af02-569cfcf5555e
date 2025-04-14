@@ -49,8 +49,8 @@ public class FnpBusinessAction {
 
                 helper.clickOnElement(footerLink);
                 String pageTitle = Hooks.driver.getTitle();
-                // List<String> titleList = ExcelReader.readExcelData("Sheet1", "titleAv");
-                // helper.assertPageTitle(Hooks.driver,titleList.get(i));
+                List<String> titleList = ExcelReader.readExcelData("Sheet1", "title");
+                helper.assertPageTitle(Hooks.driver,titleList.get(i));
    
                 //test.log(Status.INFO,pageTitle+"has been verified");
                 LoggerHandler.infoMessage(pageTitle+"has been verified");

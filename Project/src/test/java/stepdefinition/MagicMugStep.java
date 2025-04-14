@@ -25,4 +25,3 @@ public void user_filters_the_results_by_magic_mugs_and_clicks_the_first_result()
 }
     
 }
-

@@ -22,4 +22,3 @@ public void user_filters_the_result_by_availability_true() {
 }
     
 }
-

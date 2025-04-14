@@ -28,4 +28,3 @@ public void user_clicks_the_first_result_and_clicks_on_buy_now() {
 }
     
 }
-
