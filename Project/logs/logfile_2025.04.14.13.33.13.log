@@ -1,0 +1,103 @@
+2025-04-14 13:33:13,649 INFO  utils.LoggerHandler - Enter cake in the search bar
+2025-04-14 13:33:24,259 INFO  utils.LoggerHandler - Enter the Location as Delhi
+2025-04-14 13:33:25,364 INFO  utils.LoggerHandler - Click on Flavour
+2025-04-14 13:33:25,364 INFO  utils.LoggerHandler - Click on Chocolate
+2025-04-14 13:33:25,842 INFO  utils.LoggerHandler - Click on First Product
+2025-04-14 13:33:30,537 INFO  utils.LoggerHandler - Click on Buy Now
+2025-04-14 13:33:31,293 INFO  utils.LoggerHandler - Test Case 02 Passed
+2025-04-14 13:33:40,667 INFO  utils.LoggerHandler - Clikced on NoThanks
+2025-04-14 13:33:43,219 INFO  utils.LoggerHandler - Entered Delhi in LocationBox
+2025-04-14 13:33:58,297 INFO  utils.LoggerHandler - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Bangalore, Karnataka, India, 560001')]"}
+  (Session info: chrome=135.0.7049.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [cefdf922bb57135f782ecfd09b7b54ac, findElement {using=xpath, value=//span[contains(text(),'Bangalore, Karnataka, India, 560001')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.52, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:33373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.166.5:4444/sessi..., se:cdpVersion: 135.0.7049.52, se:containerName: eebdbaaaeaabeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.166.5:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.166.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cefdf922bb57135f782ecfd09b7b54ac
+2025-04-14 13:34:03,823 INFO  utils.LoggerHandler - Clikced on FirstProduct
+2025-04-14 13:34:11,317 INFO  utils.LoggerHandler - Clikced on AddToCart
+2025-04-14 13:34:27,082 INFO  utils.LoggerHandler - Location Entered Successfully
+2025-04-14 13:34:30,769 INFO  utils.LoggerHandler - Clicked on Plants
+2025-04-14 13:34:34,071 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="w-full max-w-[150px] overflow-hidden text-ellipsis whitespace-nowrap md:max-w-[200px]">...</span> is not clickable at point (282, 59). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.52)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c885851042c2c572bfbcf637194961a, clickElement {id=f.7D95DA5609C442C1498B76288F3756B1.d.F8E2E015051892611CB85592962D158D.e.274}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.52, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.166.5:4444/sessi..., se:cdpVersion: 135.0.7049.52, se:containerName: eebdbaaaeaabeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.166.5:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.166.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (8c885851042c2c572bfbcf637194961a)] -> xpath: //span[contains(text(),'Bangalore, Karnataka, India')]]
+Session ID: 8c885851042c2c572bfbcf637194961a
+2025-04-14 13:34:52,372 INFO  utils.LoggerHandler - Clikced On Cart
+2025-04-14 13:34:52,445 ERROR utils.LoggerHandler - invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=135.0.7049.52)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [8c885851042c2c572bfbcf637194961a, findElement {using=css selector, value=//div[contains(text(),'Continue Gifting')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.52, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:38101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.166.5:4444/sessi..., se:cdpVersion: 135.0.7049.52, se:containerName: eebdbaaaeaabeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.166.5:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.166.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8c885851042c2c572bfbcf637194961a
+2025-04-14 13:35:04,631 INFO  utils.LoggerHandler - Hover over LifeStyle
+2025-04-14 13:35:09,720 INFO  utils.LoggerHandler - Click on Jewellery
+2025-04-14 13:35:12,054 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18">...</span> is not clickable at point (262, 35). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.52)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [082b6c352db2447593e7b76fe97f82f3, clickElement {id=f.11A80C670CC60E30F3BA9FDC5EF15FF6.d.EF268DD1E67A193EA6B1E723381CA86B.e.294}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.52, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44897}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.166.5:4444/sessi..., se:cdpVersion: 135.0.7049.52, se:containerName: eebdbaaaeaabeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.166.5:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.166.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (082b6c352db2447593e7b76fe97f82f3)] -> css selector: span[class='block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18']]
+Session ID: 082b6c352db2447593e7b76fe97f82f3
+2025-04-14 13:35:26,841 INFO  utils.LoggerHandler - Enter the Location as Kolkata
+2025-04-14 13:35:27,447 INFO  utils.LoggerHandler - Click on First Product
+2025-04-14 13:35:31,736 INFO  utils.LoggerHandler - Click on Add to Cart
+2025-04-14 13:35:34,788 INFO  utils.LoggerHandler - Test Case 10 Passed
+2025-04-14 13:35:43,270 INFO  utils.LoggerHandler - clicked on no thanks
+2025-04-14 13:35:44,515 INFO  utils.LoggerHandler - Entered the location as Chennai
+2025-04-14 13:35:44,515 INFO  utils.LoggerHandler - verify the pincode
+2025-04-14 13:35:48,735 INFO  utils.LoggerHandler - Clicked on continue shopping
+2025-04-14 13:35:51,894 INFO  utils.LoggerHandler - hovered over anniversary
+2025-04-14 13:35:56,534 INFO  utils.LoggerHandler - clicked on flowers in the dropdown
+2025-04-14 13:36:02,528 INFO  utils.LoggerHandler - filtered the results by roses
+2025-04-14 13:36:06,140 INFO  utils.LoggerHandler - clicked the first result
+2025-04-14 13:36:11,459 INFO  utils.LoggerHandler - clicked on buy now
+2025-04-14 13:36:12,093 INFO  utils.LoggerHandler - clicked on the cart
+2025-04-14 13:36:28,525 INFO  utils.LoggerHandler - hovered over combos
+2025-04-14 13:36:33,135 INFO  utils.LoggerHandler - clicked on healthy hampers
+2025-04-14 13:36:37,504 INFO  utils.LoggerHandler - clicked on availability
+2025-04-14 13:36:37,781 INFO  utils.LoggerHandler - filter the results by availability true
+2025-04-14 13:36:57,411 INFO  utils.LoggerHandler - verify the pincode
+2025-04-14 13:36:57,581 INFO  utils.LoggerHandler - Delivery Location Given
+2025-04-14 13:37:13,034 INFO  utils.LoggerHandler - Screenshot taken for Same Day delivery filter
+2025-04-14 13:37:14,046 INFO  utils.LoggerHandler - click on the first cake
+2025-04-14 13:37:19,459 INFO  utils.LoggerHandler - item added to cart
+2025-04-14 13:37:22,594 INFO  utils.LoggerHandler - test case04 passed
+2025-04-14 13:37:34,624 INFO  utils.LoggerHandler - Redirected page Open Terms & Conditions
+2025-04-14 13:37:41,792 INFO  utils.LoggerHandler - Redirected page Open Privacy Policy
+2025-04-14 13:37:49,780 INFO  utils.LoggerHandler - Redirected page Open Terms of Use
+2025-04-14 13:37:56,320 INFO  utils.LoggerHandler - Redirected page Open Disclaimer
+2025-04-14 13:38:03,954 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals About Us Information]> but was:<[Event Decorators | Event Decoration Services for All Occasions - FNP]>
+2025-04-14 13:38:03,954 INFO  utils.LoggerHandler - Redirected page title verified About Us
+2025-04-14 13:38:10,839 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals Family | Ferns N Petals Team Members]> but was:<[Order Corporate Gifts for Employees, Client & Staff from FNP]>
+2025-04-14 13:38:10,840 INFO  utils.LoggerHandler - Redirected page title verified FNP Team
+2025-04-14 13:38:17,252 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals Careers | Job Vacancy in] Ferns N Petals> but was:<[Affiliate Program - Earn Money from Affiliate Marketing |] Ferns N Petals>
+2025-04-14 13:38:17,252 INFO  utils.LoggerHandler - Redirected page title verified Careers
+2025-04-14 13:38:23,755 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Heartfelt Testimonials from Happy Customers | FNP]> but was:<[Retails Stores Information by Ferns N Petals]>
+2025-04-14 13:38:23,755 INFO  utils.LoggerHandler - Redirected page title verified Testimonials
+2025-04-14 13:38:27,971 INFO  utils.LoggerHandler - test case 08 passed
+2025-04-14 13:38:36,830 INFO  utils.LoggerHandler - clicked on no thanks
+2025-04-14 13:38:40,150 INFO  utils.LoggerHandler - hovered over personalized section in the nav bar
+2025-04-14 13:38:45,236 INFO  utils.LoggerHandler - clicked on mugs in the dropdown
+2025-04-14 13:38:46,050 INFO  utils.LoggerHandler - entered Bangalore in the input box
+2025-04-14 13:38:50,403 INFO  utils.LoggerHandler - clicked on continue shopping button
+2025-04-14 13:38:56,430 INFO  utils.LoggerHandler - filtered the results for magic mugs
+2025-04-14 13:38:57,530 INFO  utils.LoggerHandler - clicked on the first product from the result page
+2025-04-14 13:39:02,472 INFO  utils.LoggerHandler - clicked on add to cart
+2025-04-14 13:39:17,234 INFO  utils.LoggerHandler - Event Decorators | Event Decoration Services for All Occasions - FNPhas been verified
+2025-04-14 13:39:30,266 INFO  utils.LoggerHandler - Order Corporate Gifts for Employees, Client & Staff from FNPhas been verified
+2025-04-14 13:39:36,549 INFO  utils.LoggerHandler - Affiliate Program - Earn Money from Affiliate Marketing | Ferns N Petalshas been verified
+2025-04-14 13:39:43,743 INFO  utils.LoggerHandler - Retails Stores Information by Ferns N Petalshas been verified
+2025-04-14 13:39:50,571 ERROR utils.LoggerHandler - Assert page Titleexpected:<[]> but was:<[Flowers & Gifts Shop Profitable Franchise Business in India | FNP]>
+2025-04-14 13:39:50,572 INFO  utils.LoggerHandler - has been verified
