@@ -1,0 +1,167 @@
+2025-04-15 04:04:56,140 INFO  utils.LoggerHandler - Enter cake in the search bar
+2025-04-15 04:05:01,286 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18">...</span> is not clickable at point (262, 35). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.84)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [c8671726e163c9c69590fb2a3fa28103, clickElement {id=f.65A4F68DCA6560555878A7D50F9D9A99.d.82CB3B2129FFA3CD7A71CE31E62ECFF9.e.315}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37749}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (c8671726e163c9c69590fb2a3fa28103)] -> css selector: span[class='block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18']]
+Session ID: c8671726e163c9c69590fb2a3fa28103
+2025-04-15 04:05:06,303 INFO  utils.LoggerHandler - Enter the Location as Delhi
+2025-04-15 04:05:07,354 INFO  utils.LoggerHandler - Click on Flavour
+2025-04-15 04:05:07,354 INFO  utils.LoggerHandler - Click on Chocolate
+2025-04-15 04:05:08,254 INFO  utils.LoggerHandler - Click on First Product
+2025-04-15 04:05:12,457 INFO  utils.LoggerHandler - Click on Buy Now
+2025-04-15 04:05:13,002 INFO  utils.LoggerHandler - Test Case 02 Passed
+2025-04-15 04:05:20,679 INFO  utils.LoggerHandler - Clikced on NoThanks
+2025-04-15 04:05:22,802 INFO  utils.LoggerHandler - Entered Delhi in LocationBox
+2025-04-15 04:05:32,849 INFO  utils.LoggerHandler - no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Bangalore, Karnataka, India, 560001')]"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [930ad9bb186ded99947bf265705ef5e3, findElement {using=xpath, value=//span[contains(text(),'Bangalore, Karnataka, India, 560001')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35787}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 930ad9bb186ded99947bf265705ef5e3
+2025-04-15 04:05:37,463 INFO  utils.LoggerHandler - Clikced on FirstProduct
+2025-04-15 04:05:43,800 INFO  utils.LoggerHandler - Clikced on AddToCart
+2025-04-15 04:05:56,517 INFO  utils.LoggerHandler - Location Entered Successfully
+2025-04-15 04:05:59,282 INFO  utils.LoggerHandler - Clicked on Plants
+2025-04-15 04:06:00,816 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18">...</span> is not clickable at point (262, 35). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.84)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, clickElement {id=f.19E212705B569BDDD31BD60FB2C739B4.d.A886CD7223B8B857E871E992E766A267.e.253}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (a1bae21d28c30f5788908329b30deea6)] -> css selector: span[class='block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18']]
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:03,572 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <h2>...</h2> is not clickable at point (248, 638). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.84)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, clickElement {id=f.19E212705B569BDDD31BD60FB2C739B4.d.A886CD7223B8B857E871E992E766A267.e.263}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (a1bae21d28c30f5788908329b30deea6)] -> xpath: //div/h2[text()='Lucky Bamboo']]
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:14,989 ERROR utils.LoggerHandler - Element Not Clickedno such element: Unable to locate element: {"method":"xpath","selector":"//div/h2[text()='Jade Plants']"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, findElement {using=xpath, value=//div/h2[text()='Jade Plants']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:25,094 ERROR utils.LoggerHandler - Element Not Clickedno such element: Unable to locate element: {"method":"xpath","selector":"//div/h2[text()='Money Plants']"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, findElement {using=xpath, value=//div/h2[text()='Money Plants']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:35,121 ERROR utils.LoggerHandler - Element Not Clickedno such element: Unable to locate element: {"method":"css selector","selector":"button[aria-label='Cart']"}
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, findElement {using=css selector, value=button[aria-label='Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:35,121 INFO  utils.LoggerHandler - Clikced On Cart
+2025-04-15 04:06:35,144 ERROR utils.LoggerHandler - invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [a1bae21d28c30f5788908329b30deea6, findElement {using=css selector, value=//div[contains(text(),'Continue Gifting')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45125}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1bae21d28c30f5788908329b30deea6
+2025-04-15 04:06:45,773 INFO  utils.LoggerHandler - Hover over LifeStyle
+2025-04-15 04:06:48,939 INFO  utils.LoggerHandler - Click on Jewellery
+2025-04-15 04:06:51,698 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18">...</span> is not clickable at point (262, 35). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.84)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [11d1e95a29a7ea1d545bf993f7386e13, clickElement {id=f.BEACC70683A4DF7D60F7BCA89A072E2C.d.2DB42AA4E8482FD270F0512551871478.e.293}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (11d1e95a29a7ea1d545bf993f7386e13)] -> css selector: span[class='block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18']]
+Session ID: 11d1e95a29a7ea1d545bf993f7386e13
+2025-04-15 04:07:01,445 ERROR utils.LoggerHandler - Element Not Clickedelement click intercepted: Element <span class="block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18">...</span> is not clickable at point (262, 35). Other element would receive the click: <div class="fixed inset-0 z-10 bg-white-900 opacity-100 md:bg-black-900 md:opacity-50"></div>
+  (Session info: chrome=135.0.7049.84)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [11d1e95a29a7ea1d545bf993f7386e13, clickElement {id=f.BEACC70683A4DF7D60F7BCA89A072E2C.d.88C1E39A972C7E0798057B4F62AF132C.e.406}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (11d1e95a29a7ea1d545bf993f7386e13)] -> css selector: span[class='block max-w-[153px] overflow-hidden text-ellipsis whitespace-nowrap text-16 font-600 text-fnp-500 md:text-16 xxl:text-18']]
+Session ID: 11d1e95a29a7ea1d545bf993f7386e13
+2025-04-15 04:07:06,018 INFO  utils.LoggerHandler - Enter the Location as Kolkata
+2025-04-15 04:07:06,568 INFO  utils.LoggerHandler - Click on First Product
+2025-04-15 04:07:09,844 ERROR utils.LoggerHandler - Element Not Clickedstale element reference: stale element not found in the current frame
+  (Session info: chrome=135.0.7049.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.1.123+', java.version: '11.0.26'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [11d1e95a29a7ea1d545bf993f7386e13, clickElement {id=f.0DA9095FAC970B23EA45D23ABB1120BE.d.D2416E975B2F4BE9130612F9D7B2268E.e.119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://10.80.192.3:4444/sessi..., se:cdpVersion: 135.0.7049.84, se:containerName: deabbeacbffbeecdbcfdfabaabe..., se:noVncPort: 7900, se:vnc: ws://10.80.192.3:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.80.192.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[RemoteWebDriver: chrome on linux (11d1e95a29a7ea1d545bf993f7386e13)] -> css selector: button[title='Add To Cart']]
+Session ID: 11d1e95a29a7ea1d545bf993f7386e13
+2025-04-15 04:07:09,844 INFO  utils.LoggerHandler - Click on Add to Cart
+2025-04-15 04:07:12,423 INFO  utils.LoggerHandler - Test Case 10 Passed
+2025-04-15 04:07:18,965 INFO  utils.LoggerHandler - clicked on no thanks
+2025-04-15 04:07:20,146 INFO  utils.LoggerHandler - Entered the location as Chennai
+2025-04-15 04:07:20,146 INFO  utils.LoggerHandler - verify the pincode
+2025-04-15 04:07:24,573 INFO  utils.LoggerHandler - Clicked on continue shopping
+2025-04-15 04:07:27,751 INFO  utils.LoggerHandler - hovered over anniversary
+2025-04-15 04:07:31,453 INFO  utils.LoggerHandler - clicked on flowers in the dropdown
+2025-04-15 04:07:36,643 INFO  utils.LoggerHandler - filtered the results by roses
+2025-04-15 04:07:39,949 INFO  utils.LoggerHandler - clicked the first result
+2025-04-15 04:07:43,596 INFO  utils.LoggerHandler - clicked on buy now
+2025-04-15 04:07:44,267 INFO  utils.LoggerHandler - clicked on the cart
+2025-04-15 04:07:58,283 INFO  utils.LoggerHandler - hovered over combos
+2025-04-15 04:07:59,737 INFO  utils.LoggerHandler - clicked on healthy hampers
+2025-04-15 04:08:05,842 INFO  utils.LoggerHandler - clicked on availability
+2025-04-15 04:08:06,066 INFO  utils.LoggerHandler - filter the results by availability true
+2025-04-15 04:08:22,080 INFO  utils.LoggerHandler - verify the pincode
+2025-04-15 04:08:22,233 INFO  utils.LoggerHandler - Delivery Location Given
+2025-04-15 04:08:36,063 INFO  utils.LoggerHandler - Screenshot taken for Same Day delivery filter
+2025-04-15 04:08:36,554 INFO  utils.LoggerHandler - click on the first cake
+2025-04-15 04:08:40,066 INFO  utils.LoggerHandler - item added to cart
+2025-04-15 04:08:42,967 INFO  utils.LoggerHandler - test case04 passed
+2025-04-15 04:08:53,292 INFO  utils.LoggerHandler - Redirected page Open Terms & Conditions
+2025-04-15 04:08:59,178 INFO  utils.LoggerHandler - Redirected page Open Privacy Policy
+2025-04-15 04:09:04,738 INFO  utils.LoggerHandler - Redirected page Open Terms of Use
+2025-04-15 04:09:09,840 INFO  utils.LoggerHandler - Redirected page Open Disclaimer
+2025-04-15 04:09:15,961 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals About Us Information]> but was:<[Event Decorators | Event Decoration Services for All Occasions - FNP]>
+2025-04-15 04:09:15,961 INFO  utils.LoggerHandler - Redirected page title verified About Us
+2025-04-15 04:09:21,740 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals Family | Ferns N Petals Team Members]> but was:<[Order Corporate Gifts for Employees, Client & Staff from FNP]>
+2025-04-15 04:09:21,740 INFO  utils.LoggerHandler - Redirected page title verified FNP Team
+2025-04-15 04:09:27,843 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Ferns N Petals Careers | Job Vacancy in] Ferns N Petals> but was:<[Affiliate Program - Earn Money from Affiliate Marketing |] Ferns N Petals>
+2025-04-15 04:09:27,843 INFO  utils.LoggerHandler - Redirected page title verified Careers
+2025-04-15 04:09:33,770 ERROR utils.LoggerHandler - Assert page Titleexpected:<[Heartfelt Testimonials from Happy Customers | FNP]> but was:<[Retails Stores Information by Ferns N Petals]>
+2025-04-15 04:09:33,771 INFO  utils.LoggerHandler - Redirected page title verified Testimonials
+2025-04-15 04:09:37,283 INFO  utils.LoggerHandler - test case 08 passed
+2025-04-15 04:09:44,137 INFO  utils.LoggerHandler - clicked on no thanks
+2025-04-15 04:09:47,313 INFO  utils.LoggerHandler - hovered over personalized section in the nav bar
+2025-04-15 04:09:51,169 INFO  utils.LoggerHandler - clicked on mugs in the dropdown
+2025-04-15 04:09:51,840 INFO  utils.LoggerHandler - entered Bangalore in the input box
+2025-04-15 04:09:56,054 INFO  utils.LoggerHandler - clicked on continue shopping button
+2025-04-15 04:09:59,450 INFO  utils.LoggerHandler - filtered the results for magic mugs
+2025-04-15 04:10:02,167 INFO  utils.LoggerHandler - clicked on the first product from the result page
+2025-04-15 04:10:05,678 INFO  utils.LoggerHandler - clicked on add to cart
+2025-04-15 04:10:17,855 INFO  utils.LoggerHandler - Event Decorators | Event Decoration Services for All Occasions - FNPhas been verified
+2025-04-15 04:10:27,002 INFO  utils.LoggerHandler - Order Corporate Gifts for Employees, Client & Staff from FNPhas been verified
+2025-04-15 04:10:31,958 INFO  utils.LoggerHandler - Affiliate Program - Earn Money from Affiliate Marketing | Ferns N Petalshas been verified
+2025-04-15 04:10:37,598 INFO  utils.LoggerHandler - Retails Stores Information by Ferns N Petalshas been verified
+2025-04-15 04:10:43,286 ERROR utils.LoggerHandler - Assert page Titleexpected:<[]> but was:<[Flowers & Gifts Shop Profitable Franchise Business in India | FNP]>
+2025-04-15 04:10:43,286 INFO  utils.LoggerHandler - has been verified
